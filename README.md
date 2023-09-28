@@ -1,5 +1,5 @@
 # Longest Route Finder
-This is a project for finding a closed circuit(NOt necessarily Hamiltonian) in a graph with weighted edges which has the maximum sum of weights of its edges. The code provided is written using the **mip** Python library and **CBC** solver for Mixed integer programming.
+This is a project for finding a closed circuit(Not necessarily Hamiltonian) in a graph with weighted edges which has the maximum sum of weights of its edges. The code provided is written using the **mip** Python library and **CBC** solver for Mixed integer programming.
 ## Input
 The data provided into the code in the format of a 2-D Matrix of size $n$ where n represents the total number of nodes and each entry in the matrix contains weight of the edge betweeen those two nodes. If somewhere an edge is not present, weight is entered as a large negative value with modulus greater than the sum of all valid weights. 
 ## Output
